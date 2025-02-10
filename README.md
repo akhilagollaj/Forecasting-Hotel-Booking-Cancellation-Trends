@@ -51,19 +51,19 @@ Forecast monthly hotel booking cancellation rates to improve revenue management 
 
 <img width="375" alt="Naive Forecast" src="https://github.com/user-attachments/assets/07dde9a6-ed8d-48bf-a09c-70372b7fadd1" />
 
-- **Description**: This plot shows the monthly cancellation trends over time using the Naive Forecast model. The training and validation periods are highlighted, with the Naive model assuming future values are equal to the last observed value.
+- This plot shows the monthly cancellation trends over time using the Naive Forecast model. The training and validation periods are highlighted, with the Naive model assuming future values are equal to the last observed value.
 
 ### 2. Exponential Smoothing (ETS) Forecast
 
 <img width="375" alt="ETS" src="https://github.com/user-attachments/assets/606d9197-a43f-4639-9d23-f95a0b1494c4" />
 
-- **Description**: This plot illustrates the monthly cancellation trends using the Exponential Smoothing (ETS) model. The model accounts for seasonality and trends, smoothing out random fluctuations in the data.
+- This plot illustrates the monthly cancellation trends using the Exponential Smoothing (ETS) model. The model accounts for seasonality and trends, smoothing out random fluctuations in the data.
 
 ### 3. ARIMA Forecast
 
 <img width="291" alt="ARIMA" src="https://github.com/user-attachments/assets/f6b45cd3-9672-419c-9af5-daedbc8e717f" />
 
-- **Description**: This plot displays the monthly cancellation trends using the ARIMA model. ARIMA captures complex patterns and provides precise forecasts, as evidenced by its performance.
+- This plot displays the monthly cancellation trends using the ARIMA model. ARIMA captures complex patterns and provides precise forecasts, as evidenced by its performance.
 
 
 ## Key Insights
@@ -86,11 +86,6 @@ Forecast monthly hotel booking cancellation rates to improve revenue management 
 - Seasonal patterns were well-represented by ETS and ARIMA, but the added complexity did not yield substantial improvements.
 - The forecast worked well during stable periods but failed to predict the sudden decline in cancellations.
 
-## Repository Structure
-- **Data**: Contains the dataset (`hotel_booking.csv`) and cleaned data files.
-- **Notebooks**: Includes scripts for data preprocessing, model training, and visualization.
-- **Visualizations**: Pre-generated plots (e.g., line charts, bar charts) stored as PNG files.
-- **Results**: Model outputs and evaluation metrics.
 
 ## How to Use This Repository
 1. Clone the repository:
@@ -109,8 +104,8 @@ Forecast monthly hotel booking cancellation rates to improve revenue management 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the (LICENSE) file for details.
 
 ---
 
-For any questions or further information, please contact [your-email@example.com].
+For any questions or further information, please contact akhilagolla2622@gmail.com.
